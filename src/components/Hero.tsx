@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
           <div className="relative inline-block">
             <div className="w-40 h-40 mx-auto rounded-full bg-gradient-to-br from-purple-400 via-pink-400 to-orange-400 p-1 shadow-2xl">
               <img
-                src="/Profilepic.jpg"
+                src="/bio/Profilepic.jpg"
                 alt="Prasath Murugesan"
                 className="w-full h-full rounded-full object-cover contrast-110 brightness-105 saturate-110"
               />
