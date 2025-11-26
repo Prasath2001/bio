@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Linkedin, Mail, Github } from 'lucide-react';
+import profilePic from '../assets/Profilepic.jpg';
 
 const Hero: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -18,7 +19,7 @@ const Hero: React.FC = () => {
           <div className="relative inline-block">
             <div className="w-40 h-40 mx-auto rounded-full bg-gradient-to-br from-purple-400 via-pink-400 to-orange-400 p-1 shadow-2xl">
               <img
-                src="/bio/Profilepic.jpg"
+                src={profilePic}
                 alt="Prasath Murugesan"
                 className="w-full h-full rounded-full object-cover contrast-110 brightness-105 saturate-110"
               />
